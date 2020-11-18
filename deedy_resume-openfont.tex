@@ -1,0 +1,222 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Johnathan}{Middleton}
+{ 
+703-340-7644 | Alexandria, VA \\
+\urlstyle{same}\href{https://www.github.com/johnmiddleton12}{github.com/johnmiddleton12} | 
+\href{mailto:johnathanmiddleton1@gmail.com}{johnathanmiddleton1@gmail.com}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     INTRO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{} 
+
+\section{Intro}
+\subsection{Goals}
+Motivated, detail-oriented computer \\
+science student seeking to leverage \\
+programming and mathematics skills \\
+into an experience-building internship.
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Christopher Newport}
+\subsection{University}
+\descript{BS in Computer Science}
+\location{May 2023 | Newport News, VA}
+Minor in Mathematics and Applied Physics \\
+Dean's List 2019-2020 (Freshman Year) \\
+Cumulative GPA: 3.81 \\
+{Coursework in:} \\
+Intermediate Calculus \textbullet{} Advanced Python \\
+Electrostatics Physics \textbullet{} Linear Algebra\\
+\sectionsep
+
+\subsection{West Potomac High School}
+\descript{High School Diploma}
+\location{June 2019 | Alexandria, VA}
+Coursework in:\\
+AP Computer Science \textbullet{} AP Calculus\\
+AP Physics \textbullet{} AP Environmental Science \\
+Tutored other students as a teacher's\\
+aide in AP Computer Science \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills} 
+\subsection{Technical Skills}
+\location{Proficient In:}
+Python 3 \textbullet{} Java \textbullet{} HTML \textbullet{} Javascript \\
+CSS \textbullet{} Git/Github \textbullet{} Debugging \\
+Microsoft Suite \textbullet{} Terminal \textbullet{} IDEs \\
+\location{Familiar:}
+Raspberry Pi \textbullet{} Electronics \\
+Unity \textbullet{} Linux \\
+\sectionsep
+\subsection{Soft Skills}
+\location{Excellent:}
+Leadership Skills \textbullet{} Motivator \\
+Team Player \textbullet{} Communicator \\
+Problem Solver \textbullet{} Work Ethic \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Amazon}\descript{| Grocery Bagger }
+\location{May 2020 - September 2020 | Alexandria, VA}
+\vspace{\topsep}
+\begin{tightemize}
+\item Helped customers get groceries to vehicles.
+\item Pleasantly greeted customers and provided prompt and curteous service at all times.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Buffalo Wild Wings}\descript{| Host }
+\location{July 2019 - November 2019 | Alexandria, VA}
+\begin{tightemize}
+\item Assisted managers with quickly resolving service- and food-related issues
+\item Supported servers, food runners, and bussers by keeping dining area ready for every guest.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Outback Steakhouse}\descript{| Host }
+\location{January 2019 - June 2019 | Alexandria, VA}
+\begin{tightemize}
+\item Watched dining area staff to evaluate server loads and calculate accurate wait times.
+\item Documented reservations and communicated changes to guests using POS system.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Programming Projects}
+\runsubsection{Grade Book Analyzer}\descript{| Tkinter, Python}
+\begin{tightemize}
+\item Built a system to effectively analyze many files of grade
+\item Able to sort through data using different combos of data
+\item Uses nested dictionaries to read data from files
+\end{tightemize}  
+\sectionsep
+
+\runsubsection{2D Platformer}\descript{| Javascript, Phaser, HTML}
+\begin{tightemize}
+\item Developed a web-based platformer using Javascript and Phaser library
+\item Provided valuable experience in physics, tilemapping, and game interfaces  
+\end{tightemize} 
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CLUBS & EXTRACURRICULARS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Clubs \& Extracurriculars}
+\runsubsection{Hiking Club}\descript{| Member, CNU}
+\location{September 2019 - Present | Newport News, VA}
+Member of the Hiking Club at Christopher Newport University 
+\begin{tightemize}
+\item McAfee Knob in September 2019
+\item Virginia Beach in March 2020
+\end{tightemize}
+\sectionsep
+\runsubsection{Track \& Field}\descript{| Team Captain, WPHS}
+\location{August 2017 - June 2019 | Alexandria, VA}
+Achieved team captain leadership role after two seasons of track \& field
+\begin{tightemize}
+\item Guided teammates through exercises and lifts
+\item Large time commitment to the team to achieve personal and team goals
+\end{tightemize}
+\sectionsep
+\runsubsection{Robotics Club}\descript{| Co-founder, WPHS}
+\location{September 2018 - May 2019 | Alexandria, VA}
+Co-founder of a robotics club at West Potomac High School with Zayn Hadan
+\begin{tightemize}
+\item Team player and leader as co-founder of club
+\item Introduced interested students to the basics of programming
+\item Provided tutoring to those struggling in programming
+\end{tightemize}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
